@@ -1,7 +1,8 @@
 {
   "scripts": {
     "start": "ts-node-dev ./src/index.ts",
-    "compilar": "tsc"
+    "production": "node ./build/index.js",
+    "preproduction": "tsc"
 
   },
   "dependencies": {
