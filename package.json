@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "start": "ts-node-dev ./src/index.ts"
+    "start": "ts-node-dev ./src/index.ts",
+    "compilar": "tsc"
+
   },
   "dependencies": {
     "dotenv": "^16.3.1",
